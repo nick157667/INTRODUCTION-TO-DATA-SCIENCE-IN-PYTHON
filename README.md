@@ -53,10 +53,11 @@
     - Counted occurrences of each word using collections.defaultdict
 <img width="1494" height="231" alt="image" src="https://github.com/user-attachments/assets/2be8ae70-8b93-4a73-a27b-3080b74a1d98" />
 
-
   - With Stemming
     - Applied stemming using PorterStemmer
     - Counted stemmed words using wordCountStem
+<img width="1454" height="262" alt="image" src="https://github.com/user-attachments/assets/7cdbe534-6aa0-4a14-8b94-4b8f66e2abdd" />
+    
 
 - TODO 2: Evaluating Classifiers
   - Initialized a Ridge Regression model with alpha=1.0 for regularization
