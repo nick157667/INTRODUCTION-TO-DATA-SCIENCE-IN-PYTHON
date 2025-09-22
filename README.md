@@ -51,12 +51,12 @@
   - Without Stemming
     - Removed punctuation and converted text to lowercase
     - Counted occurrences of each word using collections.defaultdict
-<img width="1494" height="231" alt="image" src="https://github.com/user-attachments/assets/cf233354-9d09-41ff-8d40-2118d16dbec1" />
+<img width="1494" height="231" alt="image" src="https://github.com/user-attachments/assets/2be8ae70-8b93-4a73-a27b-3080b74a1d98" />
+
 
   - With Stemming
     - Applied stemming using PorterStemmer
     - Counted stemmed words using wordCountStem
-<img width="1716" height="952" alt="image" src="https://github.com/user-attachments/assets/156bbce7-5224-4143-94d7-80b51cc97d06" />
 
 - TODO 2: Evaluating Classifiers
   - Initialized a Ridge Regression model with alpha=1.0 for regularization
@@ -67,6 +67,8 @@
 <img width="1086" height="134" alt="image" src="https://github.com/user-attachments/assets/fdd21c3f-9d0d-40ce-b9de-1c527a6b1bfd" />
 
 ## TASK4 Recommendation Systems
+
+- TODO 1: Calculate the ratingMean
 
 
 
