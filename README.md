@@ -70,6 +70,20 @@
 ## TASK4 Recommendation Systems
 
 - TODO 1: Calculate the ratingMean
+  - Computed the average rating of the training data using ratingMean = train_data['star_rating'].mean()
+  - Predicted ratings for all items using the baseline mean
+  - Evaluated the baseline MSE using baseline_mse = mean_squared_error(y_rec, baseline_predictions)
+<img width="1022" height="383" alt="image" src="https://github.com/user-attachments/assets/5d887ddf-477a-4166-a85a-b68f9fe61977" />
+
+- TODO 2: Optimize
+  - Utilized scipy.optimize.fmin_l_bfgs_b for optimization
+  - Updated alpha, userBiases, and itemBiases using the optimized theta
+  - Output the optimized global bias (alpha) and final MSE
+<img width="1584" height="280" alt="image" src="https://github.com/user-attachments/assets/004de7a9-8e8e-4df6-8d4a-73596382bf37" />
+
+
+
+
 
 
 
