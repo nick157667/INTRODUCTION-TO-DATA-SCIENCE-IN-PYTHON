@@ -21,7 +21,23 @@
 
 
 
+
 ## TASK2 Classification
+- TODO 1: Define the feature function
+  - Used data['review_body'].fillna('').apply(len).values to compute the length of each review, ensuring missing values were replaced with an empty string
+  - Extracted data['star_rating'].values as a feature
+  - Combined review length and star ratings into a single feature matrix using np.vstack((review_length, star_rating)).T
+  - Converted the verified_purchase column to integers using data['verified_purchase'].astype(int).values
+- TODO 2: Fit your model
+  - Used LogisticRegression() to initialize the Logistic Regression model
+  - Used model.fit(X_train, y_train) to train the Logistic Regression model on the training data
+  - Used model.predict(X_test) to make predictions on the test data using the trained model
+- TODO 3: Compute Accuracy of Your Model
+  - Used accuracy_score(y_test, y_pred) to compute the model's accuracy
+<img width="698" height="275" alt="image" src="https://github.com/user-attachments/assets/4d868b60-9686-4010-ac5d-bfaf3f62df01" />
+
+
+
 
 ## TASK3 Regression
 
