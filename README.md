@@ -36,6 +36,12 @@
   - Used accuracy_score(y_test, y_pred) to compute the model's accuracy
 <img width="698" height="275" alt="image" src="https://github.com/user-attachments/assets/4d868b60-9686-4010-ac5d-bfaf3f62df01" />
 
+- TODO 4: Finding the Balanced Error Rate
+  - Calculated True Positives (TP), False Positives (FP), True Negatives (TN), and False Negatives (FN) using confusion_matrix
+  - Computed Sensitivity (Recall for the positive class) using sensitivity = tp / (tp + fn)
+  - Computed Specificity (Recall for the negative class) using specificity = tn / (tn + fp)
+  - Calculated the Balanced Error Rate using ber = compute_ber(y_test, y_pred)
+
 
 
 
