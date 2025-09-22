@@ -11,6 +11,7 @@
 - TODO 2: Split the data into a Training and Testing set
   - Used sklearn.model_selection.train_test_split to split the dataset into training (80%) and testing (20%) subsets
 <img width="1296" height="485" alt="image" src="https://github.com/user-attachments/assets/c52d1888-ae14-4222-aac7-b705e8683fed" />
+
 - TODO 3: Extracting Basic Statistics
   - calculate_average_rating(data):Computes the mean star rating
   - calculate_verified_fraction(data):Calculates the fraction of verified purchases
