@@ -47,6 +47,13 @@
 
 ## TASK3 Regression
 
+- TODO 1: Unique Words in a Sample Set
+  - Without Stemming
+    - Removed punctuation and converted text to lowercase
+    - Counted occurrences of each word using collections.defaultdict
+
+
+
 ## TASK4 Recommendation Systems
 
 
